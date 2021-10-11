@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<center>
+<div ng-app="">
+<p>reg.no:<input type="text" ng-model="reg_no"></p>
+<p>name:<input type="text" ng-model="name"</p>
+<p>mark-1:<input type="number" ng-model="mark_1"></p>
+<p>mark-2:<input type="number" ng-model="mark_2"></p>
+<p>mark-3:<input type="number" ng-model="mark_3"></p>
+<p> name:{{name}}</p>
+<p>reg no:{{reg_no}}</p>
+<p>total:{{mark_1+mark_2+mark_3}}</p>
+<p>average:{{(mark_1+mark_2+mark_3)/3}}
+</div>
+</center>
+
+</body>
+</html>
